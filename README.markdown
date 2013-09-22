@@ -9,6 +9,11 @@ Prerequisites
 * sbt 0.13.0 or above
 * Android SDK
 
+Intellij Idea
+-------------
+
+    $ sbt gen-idea
+
 Build
 -----
 You can build using sbt:
@@ -19,7 +24,9 @@ This will compile the project and generate an APK.
 
 For more command, refer to [Android SDK plugin for sbt](https://github.com/pfn/android-sdk-plugin).
 
-
+Install
+-------
+    $ sbt android:install
 
 Troubleshooting
 ---------------
